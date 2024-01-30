@@ -7,12 +7,12 @@ import lombok.Setter;
 
 @Setter
 @Getter
-@AllArgsConstructor@NoArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 public class ApiResponse {
-	
-	private String message;
-	
-	private boolean status;
 
+	private String message;
+
+	private boolean status;
 
 }

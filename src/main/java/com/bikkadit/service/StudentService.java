@@ -6,7 +6,7 @@ import com.bikkadit.dto.StudentDto;
 
 public interface StudentService {
 
- 	StudentDto saveStudent(StudentDto studentDto);
+	StudentDto saveStudent(StudentDto studentDto);
 
 	List<StudentDto> getAllStudent();
 
@@ -15,5 +15,9 @@ public interface StudentService {
 	StudentDto updateStudent(StudentDto studentDto, Long studentId);
 
 	void deleteStudent(Long studentId);
+	
+	StudentDto registerNewUser(StudentDto studentDto);
+	
+	
 
 }
